@@ -1,0 +1,9 @@
+.vscode
+logs
+node_modules/*
+public
+src
+.Dockerfile
+.gitignore
+tsconfig.json
+tslint.json

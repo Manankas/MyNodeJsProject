@@ -1,0 +1,106 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mail</title>
+</head>
+
+<body>
+    <table width="100%">
+        <tbody>
+            <tr>
+                <td align="center" valign="top">
+                    <table width="600px" cellpadding="0" cellspacing="0" border="0" bgcolor="#f4f5f5">
+                        <tbody>
+                            <tr>
+                                <td style="padding-left:40px; padding-top:40px; font-size:25px; font-weight:bold;">
+                                    Votre demande de brochure</td>
+                                <td width="150px;" height="80px">
+                                    <img src="cid:logoId">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left:40px;" height="6px">
+                                    <img src="cid:bg-titreId">
+                                </td>
+                            </tr>
+                            <tr height="45px"></tr>
+                            <tr>
+                                <td style="padding-left:40px;">Madame, Monsieur,
+                                    <br>
+                                    <br>Le catalogue
+                                    <%= brochureName %> est disponible en pièce jointe.
+                                        <br>
+                                        <br>Opel Saint-Ouen l'Aumône
+                                </td>
+                                <td width="150px" height="105px">
+                                    <img src="cid:piece-jointeId">
+                                </td>
+                            </tr>
+                            <tr height="40px"></tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<style>
+    @font-face {
+        font-family: 'Opel Sans Condensed';
+        src: url('fonts/OpelSansCondensed.eot');
+        src: url('fonts/OpelSansCondensed.eot?#iefix') format('embedded-opentype'), url('fonts/OpelSansCondensed.woff2') format('woff2'), url('fonts/OpelSansCondensed.woff') format('woff'), url('fonts/OpelSansCondensed.svg#Opel Sans Condensed') format('svg');
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: condensed;
+        unicode-range: U+0020-02DC;
+    }
+
+    @font-face {
+        font-family: 'Opel Sans Condensed';
+        src: url('fonts/OpelSansCondensedBold.eot');
+        src: url('fonts/OpelSansCondensedBold.eot?#iefix') format('embedded-opentype'), url('fonts/OpelSansCondensedBold.woff2') format('woff2'), url('fonts/OpelSansCondensedBold.woff') format('woff'), url('fonts/OpelSansCondensedBold.svg#Opel Sans Condensed Bold') format('svg');
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: condensed;
+        unicode-range: U+0020-02DC;
+    }
+
+    @font-face {
+        font-family: 'Opel Sans italic';
+        src: url('fonts/OpelSansBoldItalic.eot');
+        src: url('fonts/OpelSansBoldItalic.eot?#iefix') format('embedded-opentype'), url('fonts/OpelSansBoldItalic.woff2') format('woff2'), url('fonts/OpelSansBoldItalic.woff') format('woff'), url('fonts/OpelSansBoldItalic.svg#Opel Sans Bold Italic') format('svg');
+        font-weight: 700;
+        font-style: italic;
+        font-stretch: normal;
+        unicode-range: U+0020-02DC;
+    }
+
+    @font-face {
+        font-family: 'Opel Sans italic';
+        src: url('fonts/OpelSansItalic.eot');
+        src: url('fonts/OpelSansItalic.eot?#iefix') format('embedded-opentype'), url('fonts/OpelSansItalic.woff2') format('woff2'), url('fonts/OpelSansItalic.woff') format('woff'), url('fonts/OpelSansItalic.svg#Opel Sans Italic') format('svg');
+        font-weight: 400;
+        font-style: italic;
+        font-stretch: normal;
+        unicode-range: U+0020-02DC;
+    }
+
+    @font-face {
+        font-family: 'Opel Sans Condensed ExtraBold';
+        src: url('fonts/OpelSansCondensedExtraBold.eot');
+        src: url('fonts/OpelSansCondensedExtraBold.eot?#iefix') format('embedded-opentype'), url('fonts/OpelSansCondensedExtraBold.woff2') format('woff2'), url('fonts/OpelSansCondensedExtraBold.woff') format('woff'), url('fonts/OpelSansCondensedExtraBold.svg#Opel Sans Condensed ExtraBold') format('svg');
+        font-weight: 800;
+        font-style: normal;
+        font-stretch: condensed;
+        unicode-range: U+0020-02DC;
+    }
+
+    body {
+        font-family: 'Opel Sans Condensed';
+    }
+</style>
+
+</html>
